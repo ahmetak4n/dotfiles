@@ -1,0 +1,3 @@
+-- core requirements
+require("core")
+
