@@ -7,6 +7,7 @@ It's a config repository that includes:
 ### Dependencies
 - brew install zsh-autocomplete zsh-autosuggestions
 - brew install fd ripgrep gopls yarn delve
+- brew install --cask font-hack-nerd-font
 
 ## Post Configuration
 - Create a .zshenv file in home directory
