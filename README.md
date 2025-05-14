@@ -2,6 +2,7 @@
 It's a config repository that includes:
 - [nvim](https://neovim.io)
 - [brew](https://brew.sh/)
+- [zellij](https://zellij.dev)
 
 ### Dependencies
 - brew install zsh-autocomplete zsh-autosuggestions
@@ -9,4 +10,5 @@ It's a config repository that includes:
 
 ## Post Configuration
 - Create a .zshenv file in home directory
-- Add `ZDOTDIR=terminal-config-path` as config
+- Add `ZDOTDIR=dotfiles-root-path/zsh` as config
+- Add `ZELLIJ_CONFIG_DIR=dotfiles-root-path/zellij` as config
