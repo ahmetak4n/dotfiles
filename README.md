@@ -15,3 +15,4 @@ It's a config repository that includes:
 - Add `ZDOTDIR=dotfiles-root-path/zsh` as config
 - Add `ZELLIJ_CONFIG_DIR=dotfiles-root-path/zellij` as config
 - Add `HTOPRC=dotfiles-root-path/htop/htoprc` as config
+- Add `XDG_CONFIG_HOME=dotfiles-root-path` as config | **Note:** Don't specified `nvim` folder in the path
