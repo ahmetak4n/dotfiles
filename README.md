@@ -6,7 +6,7 @@ It's a config repository that includes:
 
 ### Dependencies
 - brew install zsh-autocomplete zsh-autosuggestions
-- brew install fd ripgrep gopls yarn delve
+- brew install fd ripgrep gopls yarn delve pyright
 - brew install --cask font-hack-nerd-font
 - brew install htop
 

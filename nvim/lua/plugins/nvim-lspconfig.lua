@@ -3,6 +3,7 @@ return {
   config = function()
     local lspconfig = require('lspconfig')
     lspconfig.gopls.setup{}
+    lspconfig.pyright.setup{}
     lspconfig.eslint.setup{}
   end,
 }
