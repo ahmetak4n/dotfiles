@@ -1,28 +1,22 @@
 layout {
-  tab name="Main"  {
+  default_tab_template {
     pane size=1 borderless=true {
       plugin location="zellij:tab-bar"
-    } 
-    
-    pane name="𐱅𐰇𐰼𐰰" focus=true
-
+    }
+    children
     pane size=2 borderless=true {
       plugin location="zellij:status-bar"
     }
   }
+  
+  tab name="Main"  {
+    pane name="𐱅𐰇𐰼𐰰" focus=true
+  }
 
   tab name="HTOP" {
-    pane size=1 borderless=true {
-      plugin location="zellij:tab-bar"
-    }
-
-    pane {
+   pane {
       command "htop"
       args "-d 30"
-    }
-
-    pane size=1 borderless=true {
-      plugin location="zellij:status-bar"
     }
   }
 }
