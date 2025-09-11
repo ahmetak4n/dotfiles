@@ -40,3 +40,4 @@ RPROMPT="$_TIME"
 #####################################
 alias v="nvim"
 alias p="podman"
+alias pcompose="podman-compose"

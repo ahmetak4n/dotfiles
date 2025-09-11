@@ -5,3 +5,5 @@
 **/.zsh_history
 zsh/.zcoredump
 
+configstore
+containers/podman-*
