@@ -6,4 +6,4 @@
 zsh/.zcoredump
 
 configstore
-containers/podman-*
+containers
