@@ -5,6 +5,9 @@
 **/.zsh_history
 zsh/.zcoredump
 
-configstore
-containers
 gh
+.semgrep
+.android
+containers
+configstore
+
