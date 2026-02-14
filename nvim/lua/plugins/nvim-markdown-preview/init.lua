@@ -1,5 +1,5 @@
 -- 
--- Markdown preview 
+-- markdown preview 
 --
 
 return {

@@ -1,5 +1,5 @@
 --
--- Finder over list, git, files and folders
+-- finder over list, git, files and folders
 --
 
 return {

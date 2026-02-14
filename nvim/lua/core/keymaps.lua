@@ -2,13 +2,8 @@
 -- nvim-tree keymaps
 -- all folder process starts with 'f'
 --
-vim.keymap.set("n", "<leader>fe", ":NvimTreeToggle<CR>", {
-  noremap = true
-})
-
-vim.keymap.set("n", "<leader>ff", ":NvimTreeFocus<CR>", {
-  noremap = true
-})
+vim.keymap.set("n", "<leader>fe", ":NvimTreeToggle<CR>", { noremap = true })
+vim.keymap.set("n", "<leader>ff", ":NvimTreeFocus<CR>", { noremap = true})
 
 --
 -- nvim-telescope keymaps
@@ -29,7 +24,6 @@ vim.keymap.set("n", "<space>e", vim.diagnostic.open_float)
 vim.keymap.set("n", "[d", vim.diagnostic.goto_prev)
 vim.keymap.set("n", "]d", vim.diagnostic.goto_next)
 vim.keymap.set("n", "<space>q", vim.diagnostic.setloclist)
-
 vim.api.nvim_create_autocmd("LspAttach", {
   group = vim.api.nvim_create_augroup("UserLspConfig", {}),
   callback = function(ev)
@@ -81,8 +75,19 @@ vim.api.nvim_create_autocmd("LspAttach", {
 --
 -- nvim-dap keymaps
 --
--- add breakpoint a line
-vim.keymap.set("n", "<Leader>bt", function() require("dap").toggle_breakpoint() end, {})
+vim.keymap.set("n", "<leader>bt", function() require("dap").toggle_breakpoint() end, {})
+vim.keymap.set("n", "<leader>bc", function() require("dap").continue() end, {})
 
--- continue app running
-vim.keymap.set("n", "<Leader>bc", function() require("dap").continue() end, {})
+--
+-- claude code keymaps
+-- 
+vim.keymap.set("n", "<leader>af", ":ClaudeCodeFocus<CR>", { desc = "Focus Claude" })
+vim.keymap.set("n", "<leader>ac", ":ClaudeCode<CR>", { desc = "Toggle Claude" })
+vim.keymap.set("n", "<leader>ar", ":ClaudeCode --resume<CR>", { desc = "Resume Claude" })
+vim.keymap.set("n", "<leader>aC", ":ClaudeCode --continue<CR>", { desc = "Continue Claude" })
+vim.keymap.set("n", "<leader>am", ":ClaudeCodeSelectModel<CR>", { desc = "Select Claude model" })
+vim.keymap.set("n", "<leader>ab", ":ClaudeCodeAdd %<CR>", { desc = "Add current buffer" })
+vim.keymap.set("v", "<leader>as", ":ClaudeCodeSend<CR>", { desc = "Send to Claude" })
+vim.keymap.set("n", "<leader>at", ":ClaudeCodeTreeAdd<CR>", { desc = "Add file" })
+vim.keymap.set("n", "<leader>aa", ":ClaudeCodeDiffAccept<CR>", { desc = "Accept diff" })
+vim.keymap.set("n", "<leader>ad", ":ClaudeCodeDiffDeny<CR>", { desc = "Deny diff" })

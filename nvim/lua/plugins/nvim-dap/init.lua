@@ -1,5 +1,5 @@
 --
--- DAP - Debug Adapter Protocol
+-- dap - debug adapter protocol
 --
 
 return {

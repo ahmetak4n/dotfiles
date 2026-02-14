@@ -1,5 +1,5 @@
 --
--- File explorer tree
+-- file explorer tree
 --
 
 return {
@@ -16,7 +16,6 @@ return {
   
   -- load begining of vim
   lazy = false,
- 
 
   config = function()
     require("plugins.nvim-tree.config")

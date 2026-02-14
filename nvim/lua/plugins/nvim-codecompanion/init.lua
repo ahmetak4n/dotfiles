@@ -1,5 +1,5 @@
 --
--- AI agent support
+-- local llm support
 --
 
 return {
@@ -12,11 +12,11 @@ return {
     "nvim-treesitter/nvim-treesitter",
   },
 
-  --tag
+  -- tag
   tag = "v15.6.0",
 
   -- config
   config = function()
-    require("plugins.codecompanion.config")
+    require("plugins.nvim-codecompanion.config")
   end,
 }

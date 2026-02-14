@@ -1,5 +1,5 @@
 --
--- Completion support plugin
+-- completion support plugin
 --
 
 return {
@@ -14,7 +14,7 @@ return {
  
   -- options
   opts = function()
-    return require("plugins.blink.opts")
+    return require("plugins.nvim-blink.opts")
   end,
 
   -- extended options

@@ -1,5 +1,5 @@
 --
--- LSP - Language Server Protocol for Neovim (https://microsoft.github.io/language-server-protocol/)
+-- lsp - language server protocol for neovim (https://microsoft.github.io/language-server-protocol/)
 --
 
 return {

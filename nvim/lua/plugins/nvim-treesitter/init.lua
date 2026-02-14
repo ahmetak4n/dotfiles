@@ -1,5 +1,5 @@
 --
--- Improve interface for users with highlight
+-- mmprove interface for users with highlight
 --
 
 return {

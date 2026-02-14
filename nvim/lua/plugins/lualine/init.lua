@@ -1,5 +1,5 @@
 --
--- Configurable statusbar
+-- configurable statusbar
 --
 
 return {
